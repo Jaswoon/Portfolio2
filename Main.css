@@ -1,0 +1,127 @@
+/* I didn't know how to add the google fonts into the CSS file so I put it in the HTML*/
+body {
+
+    background-color: rgb(231, 162, 218);
+    
+    }
+    
+    h1 {
+
+        background-color: #255b89;
+        
+        color: #ffffff;
+        width: 5cm;
+        height: 1cm;
+        border-style:groove;
+        margin-top: 1cm;
+        margin-bottom: 1cm;
+        margin-right: 2cm;
+        font-size: 22px;
+        }
+
+h2 {
+    background-color: rgb(255, 160, 120);
+
+        color: #ffffff;
+        width: fit-content;
+        height: fit-content;
+        border-style: double;
+}
+#Hobbies {
+    border: 10px dotted rgb(255, 255, 255)
+} 
+
+#Table {
+    border-color: rgb(242, 242, 242);
+    border-style: outset;
+    border-width: fit-content;
+}
+li.even {
+    background-color: rgb(255, 251, 245);
+   width: 3cm;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 50px;
+}
+li.odd {
+    background-color: rgb(253, 154, 161);
+   width: 3cm;
+   display: flex;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   height: 50px;
+}
+ul {
+    border: outset rgb(182, 200, 192);
+    border-width: 1cm;
+    width: fit-content;
+    line-height: 2em;
+    letter-spacing: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size:200%
+    /* unordered list, I experimented with spacing and heights */
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align:start;
+    text-transform: capitalize;
+    font-family: Comic Sans Ms;
+    font-weight:bolder;
+    line-height: 1cm;
+    text-align: justify;
+    text-transform: lowercase;
+    white-space: normal;
+    margin-inline-start: 2em;
+    width: fit-content;
+}
+footer {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    background-color: #e36d46;
+    background-blend-mode: exclusion;
+    font-family: Papyrus, fantasy;
+    font-weight: bolder;
+    width: fit-content;
+    /* this is pretty coolio. This is my footer */
+}
+
+aside {
+    border-style: ridge;
+    border-color: #ffffff;
+    font-family: papyrus, fantasy;
+    font-weight: bolder;
+    letter-spacing: .5cm;
+    width: fit-content;
+}
+
+h3 {
+    font-family: papyrus, fantasy;
+    font-weight: bolder;
+    width: fit-content;
+}
+a {
+    font-family: comic sans ms;
+}
+
+img {
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+    border-radius: .5cm;
+    padding-left: .5cm;
+    padding-right: .5cm;
+    padding-top: .5cm;
+    padding-bottom: .5cm;
+}
+figcaption {
+    font-family: papyrus, fantasy;
+    font-size: larger;
+    font-weight: 900;
+    border-style: double;
+    border-color: #cecece;
+    width: fit-content;
+}
+td { 
+    font-family: papyrus, fantasy;
+}
