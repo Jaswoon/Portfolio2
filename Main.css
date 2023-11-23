@@ -36,6 +36,7 @@ h2 {
     border-style: outset;
     border-width: fit-content;
 }
+/* The even and odd is for the art supplies list */
 li.even {
     background-color: rgb(255, 251, 245);
    width: 3cm;
@@ -84,7 +85,7 @@ footer {
     font-family: Papyrus, fantasy;
     font-weight: bolder;
     width: fit-content;
-    /* this is pretty coolio. This is my footer */
+    /* this is pretty coolio. This is my footer. Not a great one but it is there */
 }
 
 aside {
@@ -125,3 +126,19 @@ figcaption {
 td { 
     font-family: papyrus, fantasy;
 }
+
+/*mobile changes? */
+/* For mobile phones: */
+[class*="header"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For mobile: */
+    .header {width: 8.33%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .header {width: 8.33%;}
+  }
