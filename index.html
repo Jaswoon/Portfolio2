@@ -2,7 +2,10 @@
 <html lang="en">
 
 <head>
+  <!-- 'icon' was written in code just to get rid of the fivicon.ico error that was popping up in my console.-->
+  <link rel="icon" href="https://media.wired.com/photos/5a55457ef41e4c2cd9ee6cb5/master/w_2240,c_limit/Doggo-TopArt-104685145.jpg" type="image/png">
     <link href="Main.css" rel="stylesheet" />
+    <script defer src="Main.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <style>
     body {
@@ -32,10 +35,19 @@
     color: white;
     text-align: center;
   }
+  #hoverbutton {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  body {
+    transition: background-color 0.5s ease;
+  }
 </style>
 
 <div class="footer">
-  <p>Pls help me. idk what I'm doing</p>
+  <p>Don't Copyright Strike me PLS but the year is: <span id="yearDisplay"></span></p>
 </div>
 
 </head> Jason Ye / CPRG Lab 2 <br>
@@ -54,6 +66,21 @@
     </div>
     <footer> <small>P.S I don't know what I'm doing.</small></footer>
     <section>
+
+   <p>CHANGE BACKGROUND COLOURS</p>
+   <button id="whitebutton">WHITE</button>
+   <button id="redbutton">RED</button>
+   <button id="darkgreybutton">DARK GREY</button>
+  <br>
+  <br>
+
+  <button id="buttonalert">Click me!</button>
+  <button id="hoverbutton">HOVER OVER ME NOW</button>
+  <button id="buttoncount">More Monkeys</button>
+  <p id="textcount">1 Monkeys</p>
+
+  <ol id="numbers"></ol>
+
 <div class="header">
   <h1>Biography</h1><br>
   <br>
@@ -62,7 +89,13 @@
   <strong><h2 id="About Me"> About Me</h2></strong> 
 </div>
 
-  <p>My name is Jason and I am of Mandarin Chinese enthinicty. My family is from the mainland however, Madarin is my second langauge. I am student at SAIT under the Graphic Design stream in the Interactive Design program.</p> <br>
+<body>
+  <p id="first_text">My name is Jason and I am of Mandarin Chinese enthinicty. My family is from the mainland however, Madarin is my second langauge. I am student at SAIT under the Graphic Design stream in the Interactive Design program.</p> 
+  <button onclick="changeColor('purple');">purple</button>
+  <button onclick="changeColor('pink');">pink</button>
+  <button onclick="changeColor('black');">default</button>
+</body>
+<br>
 
   <div class="header">
   <h2 id="Hobbies">Hobbies</h2>

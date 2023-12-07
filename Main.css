@@ -142,3 +142,13 @@ td {
     /* For desktop: */
     .header {width: 8.33%;}
   }
+
+li:nth-child(odd) {
+    background-color: #f0f0f0;
+    width: 3cm;
+}
+
+li:nth-child(even) {
+    background-color: #e0e0e0; 
+    width: 3cm;
+}
